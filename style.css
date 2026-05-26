@@ -3,9 +3,9 @@
    style.css — link this in your index.html
    ============================================= */
 
-/* ── CSS VARIABLES (easy to customise!) ─────── */
+/* ── CSS VARIABLES ─────── */
 :root {
-  --color-bg:       #f5f0ea;   /* warm off-white background   */
+  --color-bg:       #757575;   /* warm off-white background   */
   --color-surface:  #ffffff;   /* card / nav background       */
   --color-text:     #2b2318;   /* main dark text              */
   --color-muted:    #7a6e65;   /* secondary / caption text    */
