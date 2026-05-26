@@ -5,13 +5,13 @@
 
 /* ── CSS VARIABLES ─────── */
 :root {
-  --color-bg:       #757575;   /* warm off-white background   */
-  --color-surface:  #ffffff;   /* card / nav background       */
-  --color-text:     #2b2318;   /* main dark text              */
-  --color-muted:    #7a6e65;   /* secondary / caption text    */
-  --color-accent:   #c0522a;   /* buttons, highlights         */
-  --color-accent-h: #9e3d1c;   /* accent on hover             */
-  --color-border:   #e2d9cf;   /* subtle borders              */
+  --color-bg:       #D6D6D6;   /* Grey background   */
+  --color-surface:  #D6D6D6;   /* card / nav background       */
+  --color-text:     #1966AE;   /* main dark text              */
+  --color-muted:    #0D0D0D;   /* secondary / caption text    */
+  --color-accent:   #0D0D0D;   /* buttons, highlights         */
+  --color-accent-h: #1966AE;   /* accent on hover             */
+  --color-border:   #1966AE;   /* subtle borders              */
 
   --font-display: 'DM Serif Display', Georgia, serif;
   --font-body:    'DM Sans', system-ui, sans-serif;
@@ -130,7 +130,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 18px 5%;
-  background: rgba(245, 240, 234, 0.85);
+  background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -203,7 +203,7 @@ ul {
   width: 600px;
   height: 600px;
   border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
-  background: radial-gradient(circle, #e8d5c4 0%, #d4b8a0 60%, transparent 100%);
+  background: radial-gradient(circle, #6699c9 0%, #1966AE 60%, transparent 100%);
   opacity: 0.45;
   animation: blobFloat 8s ease-in-out infinite;
 }
