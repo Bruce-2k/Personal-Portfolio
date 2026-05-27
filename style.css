@@ -232,7 +232,7 @@ ul {
 }
 
 .about__photo {
-  width: 100%;
+  width: auto;
   height: auto;
   object-fit: contain;
   display: block;
